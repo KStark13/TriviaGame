@@ -1,6 +1,60 @@
-/*body {
+body {
 	background-image: url(../images/wallpaper.jpg);
 	background-size: 100%;
-	color: white
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+}
 
-}*/
+/* @font-face {
+  font-family: 'Doctor What';
+  src: url('http://www.fontsaddict.com/fontface/doctor-what.ttf');
+}
+
+h1 {
+	  font-family: 'Doctor What'
+} */
+
+h1{
+	font-size: 80px;
+}
+
+h2{
+	font-size: 40px;
+	margin-top: 50px;
+}
+#startcontainer {
+	text-align: center;
+	font-size: 100px;
+	display: block;
+	margin-top: 100px;
+	margin: auto;
+	width: 800px;
+	height: 500px;
+	background-color: #003B6F;
+}
+#gamecontainer{
+	background-color: #003B6F;
+	display: block;
+	margin: auto;
+	width: 1200px;
+	height: 1500px;
+	text-align: center;
+}
+
+#endcontainer{
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 800px;
+	height: 500px;
+	background-color: #003B6F;
+}
+#startbutton{
+	margin-top: 100px;
+	background-color: #818287;
+}
+#donebutton{
+	margin-top: 40px;
+	font-size: 100px;
+	background-color: #818287;
+}
