@@ -114,7 +114,7 @@ $(document).ready(function(){
 		if(Q4 == undefined){
 			unansweredCount++;
 		}
-		else if(Q4 == "Blink"){
+		else if(Q4 == "blink"){
 			correctCount++;
 		}
 		else{
@@ -145,10 +145,10 @@ $(document).ready(function(){
 			unansweredCount++;
 		}
 		else if(Q7 == "Bad Wolf"){
-			incorrectCount++;
+			correctCount++;
 		}
 		else{
-			wrongCount++;
+			incorrectCount++;
 		}
 
 		if(Q8 == undefined){
