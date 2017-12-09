@@ -13,20 +13,20 @@
 	<!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <!-- Script -->
- 	  <script type="text/javascript" src="assets/javascript/game.js"></script>
+ 	  <script type="text/javascript" src="assets/javascript/app.js"></script>
      
       <!--Start Page -->
-      <div class="startcontainer">
+      <div id="startcontainer">
         <h1>Doctor Who Trivia</h1>
         <button id="startbutton">Start</button>
       </div>
 
       <!--Game Page -->
-      <div class="gamecontainer">
+      <div id="gamecontainer">
         <h1>Doctor Who Trivia</h1>
 
         <!--Game Timer-->
-        <h1 id="timer">Time Remaining: <span id="timerNumber"> 90 seconds</span></h1>
+        <h1 id="timer">Time Remaining: <span id="timernumber"> 120 seconds </span></h1>
 
         <!--Game Questions-->
         <h2>1.  What is the name of the Doctors ship?</h2>
@@ -98,7 +98,23 @@
           <input type="radio" name="q10" value="Yoghurt"> Yoghurt  
           <input type="radio" name="q10" value="Fish fingers and custard"> Fish fingers and custard  
           <input type="radio" name="q10" value="Bacon"> Bacon 
+        
+        <br>
 
+        <button id="donebutton">CALCULATE!!!</button>
+
+      <!--- End of game screen-->
+        <div id="endcontainer">
+             <h1>Doctor Who Trivia</h1>
+
+             <h1 id="alldone">DONE!</h1>
+
+             <br>
+
+             <h1>Correct Answers: <span id="correctanswer"> 0 </span></h1>
+             <h1>Incorrect Answers: <span id="incorrectanswer"> 0 </span></h1>
+             <h1>Unanswered:  <span id="unanswered"> 0 </span></h1>
+        </div>
       </div>
 
 
